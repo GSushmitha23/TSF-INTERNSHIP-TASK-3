@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Sushmitha">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="About Us.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Donate for a Change</title>
+</head>
+   <body>
+     <header>
+        <nav>
+        <label class="logo">Helping Hands Foundation</label>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>  
+        </ul>
+        </nav>
+      </header>
+<div class="main">
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides w3-animate-top" src="bg1.jpeg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="bg2.jpeg" style="width:100%">
+  <img class="mySlides w3-animate-top" src="bg3.jpeg" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="bg4.jpeg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+<div class="middle">
+          <h1>Donate For a Bright Future</h1><br><br>
+
+                <p><b>Donating to the causes you care about not only benefits the charities themselves, it can be deeply rewarding for you too. Millions of people give to charity on a regular basis to support causes they believe in, as well as for the positive effect it has on their own lives.</b></p><br>
+
+
+                 <p><b>In this Pandemic Times , Many people lost their families and deeply in trouble.By just donating a minimum sum of rupees you will make a big help to many people who are waiting for the helping hands.Please try to donate.</b></p><br>
+
+
+                 <p><b>With the amount you donated we will help the people in need by giving them food, shelter and education for poor children.</b></p>   
+</div>
+<footer>Designed & Developed by <a href="Home.html">Sushmitha Gudishetty</a></footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration:none;
+  list-style:none;
+}
+nav{
+  background-color:#f0c237;
+  height:80px;
+  width:100%;
+}
+label.logo{
+  color:black;
+  font-size:30px;
+  line-height:80px;
+  padding:0 20px;
+  font-weight:bold;
+}
+label.logo:hover
+{
+  letter-spacing:1.5px;
+
+}
+nav ul{
+ float: right;
+ margin-right: 80px;
+  color:white;
+}
+nav ul li{
+  display:inline-block;
+  line-height:80px;
+  margin:0 10px;
+  text-transform:uppercase;
+  font-family:Arial;
+  font-size:20px;  
+  color:red;
+}
+nav ul li a{
+  color:black;
+  padding:7px 13px;
+  border-radius:3px;
+  text-transform:uppercase;
+  }
+
+nav ul li a:hover{
+text-decoration:underline;
+letter-spacing: 2.5px;
+color: #1d14d9;
+}
+
+.bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://cdn.givingcompass.org/wp-content/uploads/2017/12/26161635/How-to-Pick-the-Right-Charity.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+
+}
+  
+
+.main h3{
+  font-size: 50px;
+  color: deeppink;
+  font-style:sanserif;
+  text-align: center;
+  padding-top: 300px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.main h3:hover{
+  letter-spacing: 2.5px;
+  color: darkcyan;
+}
+
+
